@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 5 - 20px);
+    border: 2px solid burlywood;
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    line-height: 2rem;
+
+    h2 {
+        font-size: 1.3rem;
+        color: #a52a2a;
+    }
+
+    h4 {
+        font-size: 1rem;
+        color: #a52a2ab1;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #693636;
+    }
+}
